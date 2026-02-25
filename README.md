@@ -1,6 +1,6 @@
 Student Registry CLI
 
-A modular Python command-line application for managing student records. This project was built to explore structured application design in Python, focusing on clean architecture, separation of concerns, and persistent data handling rather than just writing a simple script.
+A hybrid Python CLI application built to demonstrate modular architecture, object-oriented modeling, and layered design principles. Rather than implementing a single-script solution, this project intentionally separates domain logic, validation, persistence, and interface layers to reflect real-world software structure.
 
 The application allows users to create, update, view, and list student records through either a command-based interface (built with argparse) or an interactive menu mode. Both interfaces rely on the same underlying logic layer, demonstrating a clear separation between user interaction and core application logic.
 
